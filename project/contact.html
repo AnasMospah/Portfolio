@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Anas</a>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="nav-links">
+          <span class="close-btn" onclick="toggleMenu()">&times;</span>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="skills.html">Skills</a>
+          <a href="education.html">Education</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="contact special-height">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+                <div class="contact-details">
+                    <i class='fa fa-envelope'></i>
+                    <span>ansX23X@gmail.com</span>
+                </div>
+                <div class="contact-details">
+                    <i class='fa fa-phone'></i>
+                    <span>+966447860</span>
+                </div>
+                <div class="contact-details">
+                    <i class='fa fa-map'></i>
+                    <span>Riyadh, KSA</span>
+                </div>
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" onsubmit="handleFormSubmit(event)">
+                <input type="hidden" name="access_key" value="213ef36f-5f04-483e-913d-fbf9b59a6eff">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="input-box">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+          </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anas. All rights reserved.</p>
+    </footer>
+    <div class="overlay" onclick="toggleMenu()"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>

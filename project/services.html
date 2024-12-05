@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Services</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Anas</a>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="nav-links">
+          <span class="close-btn" onclick="toggleMenu()">&times;</span>
+          <a href="index.html">Home</a>
+          <a href="services.html" class="active">Services</a>
+          <a href="skills.html">Skills</a>
+          <a href="education.html">Education</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="services special-height">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>I create responsive and dynamic websites using the latest web technologies.</p>
+                <a href="#" class="btn">Under Training</a>
+            </div>
+            <div class="services-box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Web Design</h3>
+                <p>I design beautiful and user-friendly interfaces that enhance user experience.</p>
+                <a href="#" class="btn">Under Training</a>
+            </div>
+            <div class="services-box">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>App Development</h3>
+                <p>I develop cross-platform mobile applications for iOS and Android devices.</p>
+                <a href="#" class="btn">Under Training</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Anas. All rights reserved.</p>
+    </footer>
+    <div class="overlay" onclick="toggleMenu()"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>

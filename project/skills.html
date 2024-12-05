@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Anas</a>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <nav class="nav-links">
+          <span class="close-btn" onclick="toggleMenu()">&times;</span>
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="skills.html" class="active">Skills</a>
+          <a href="education.html">Education</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="skills special-height">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Proficient in HTML, CSS, JavaScript, and various web frameworks. I have experience creating responsive and user-friendly websites, ensuring cross-browser compatibility. My skills include implementing modern design principles and optimizing website performance for an enhanced user experience.</p>
+            </div>
+            <div class="skills-box">
+                <i class="fas fa-palette"></i>
+                <h3>Graphic Design</h3>
+                <p>Experienced in creating visually appealing designs and user interfaces. I focus on enhancing user experience through effective shape, typography, and color schemes. My skills include utilizing design software to develop logos, branding materials, and marketing assets that communicate messages clearly and attractively.</p>
+            </div>
+            <div class="skills-box">
+                <i class="fas fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Skilled in SQL and database design for efficient data storage and retrieval. I focus on optimizing database performance and ensuring data integrity through proper normalization techniques. My experience includes creating and managing relational databases to support various applications effectively.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Anas. All rights reserved.</p>
+    </footer>
+    <div class="overlay" onclick="toggleMenu()"></div>
+    <script src="js/script.js"></script>
+</body>
+</html>
